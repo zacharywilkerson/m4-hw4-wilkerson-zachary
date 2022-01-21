@@ -1,0 +1,75 @@
+/* General */
+html {
+    background-color: white;
+    font-family: Georgia;
+}
+
+body {
+    background-color: white;
+    color: black;
+    max-width: 900px;
+    margin: auto;
+}
+/* Title */
+header > p {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+/* Header/Footer */
+header,footer {
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 20px
+}
+/* h1-h6 */
+h1 {
+    text-align: center;
+    background-repeat: repeat;
+    color: black;
+    font-size: xx-large;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px
+}
+
+h2 {
+    color: darkorange;
+}
+
+h3 {
+    color: midnightblue;
+}
+
+/* Images */
+figure {
+    text-align: center;
+}
+
+/* Navigation Bars */
+a.nav_bar {
+    text-decoration: none;
+    color: rgb(185, 30, 30);
+    margin: 10px;
+    font-size: 18px;
+    border: solid rgb(185, 30, 30);
+    padding: 8px;
+}
+
+a.nav_bar:hover {
+    background-color: rgb(185, 30, 30);
+    color: white;
+}
+
+#push_up {
+    color: black;
+    border: solid black;
+}
+
+#push_up:hover {
+    background-color: black;
+    color: white;
+}
