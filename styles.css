@@ -11,13 +11,6 @@ body {
     margin: auto;
 }
 
-/* Title */
-header > p {
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-}
-
 /* Header/Footer */
 header,footer {
     font-size: 16px;
@@ -25,7 +18,14 @@ header,footer {
     background-color: white;
     text-decoration: none;
     color: black;
-    padding: 20px
+    padding: 20px;
+}
+
+/* Title */
+header > a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
 }
 
 /* h1-h6 */
@@ -36,7 +36,8 @@ h1 {
     font-size: xx-large;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    padding: 10px
+    padding: 10px;
+    margin-top: 5px;
 }
 
 h2 {
@@ -60,6 +61,7 @@ a.nav_bar {
     font-size: 18px;
     border: solid rgb(185, 30, 30);
     padding: 8px;
+    display: inline-block;
 }
 
 a.nav_bar:hover {
